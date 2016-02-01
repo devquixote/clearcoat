@@ -1,0 +1,4 @@
+cars_service:
+  build: cars
+  ports:
+    - "5000:5000"
