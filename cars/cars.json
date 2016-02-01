@@ -1,0 +1,50 @@
+[
+  {
+    "make": "Honda",
+    "model": "Pilot",
+    "trim_level": "EX",
+    "type": "SUV"
+  },
+  {
+    "make": "Honda",
+    "model": "Pilot",
+    "trim_level": "LX",
+    "type": "SUV"
+  },
+  {
+    "make": "Ford",
+    "model": "F-150",
+    "trim_level": "FX2",
+    "type": "TRUCK"
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram 1500",
+    "trim_level": "Laramie",
+    "type": "TRUCK"
+  },
+  {
+    "make": "Infiniti",
+    "model": "G35",
+    "trim_level": "Journey",
+    "type": "SEDAN"
+  },
+  {
+    "make": "Mercedes",
+    "model": "C250",
+    "trim_level": "Sport",
+    "type": "SEDAN"
+  },
+  {
+    "make": "Mercedes",
+    "model": "C250",
+    "trim_level": "Sport",
+    "type": "SEDAN"
+  },
+  {
+    "make": "Lexus",
+    "model": "CT 200H",
+    "trim_level": "Premium",
+    "type": "SEDAN"
+  }
+]
