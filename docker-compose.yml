@@ -12,4 +12,5 @@ varnish:
     - "./varnish/:/etc/varnish/configs"
   environment:
     VCL_CONFIG: '/etc/varnish/configs/services.vcl'
-    
+    VARNISHD_PARAMS: '-p default_ttl=10'
+
