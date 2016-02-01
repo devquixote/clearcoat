@@ -2,3 +2,14 @@ cars_service:
   build: cars
   ports:
     - "5000:5000"
+varnish:
+  image: "million12/varnish"
+  ports:
+    - "8080:80"
+  links:
+    - cars_service
+  volumes:
+    - "./varnish/:/etc/varnish/configs"
+  environment:
+    VCL_CONFIG: '/etc/varnish/configs/services.vcl'
+    
