@@ -31,3 +31,10 @@ sub vcl_backend_response {
     set beresp.ttl = 10s;
   }
 }
+
+sub vcl_hash {
+  // Create a custom hash that includes the ServiceCacheTTL header
+  hash_data(req.url);
+  hash_data(req.http.ServiceCacheTTL);
+  return(lookup);
+}
